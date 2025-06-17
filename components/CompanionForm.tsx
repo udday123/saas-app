@@ -67,7 +67,8 @@ const CompanionForm = () => {
 
 
   return (
-    <Form {...form}>
+    <div className="h-160 ">
+      <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
         <FormField
           control={form.control}
@@ -211,6 +212,7 @@ const CompanionForm = () => {
         <Button type="submit" className="w-full cursor-crosshair">Build Your Companion</Button>
       </form>
     </Form>
+    </div>
     
   )
 }
