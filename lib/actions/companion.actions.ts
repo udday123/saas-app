@@ -152,6 +152,7 @@ export const newCompanionPermissions = async () => {
     }
 }
 
+
 // Bookmarks
 export const addBookmark = async (companionId: string, path: string) => {
   const { userId } = await auth();
